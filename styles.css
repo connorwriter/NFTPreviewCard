@@ -1,0 +1,165 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        margin: 0 auto;
+        background-color: hsl(216, 50%, 16%);
+        padding: 28px 28px 28px 28px;
+        border-radius: 8px;
+        width: 240px;
+        vertical-align: baseline;
+    }
+    
+    .gridwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+    
+    img {
+        width: 240px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: hsl(0, 0%, 100%)
+    }
+
+    p {
+        color: hsl(215, 51%, 70%)
+    }
+
+    #etherium {
+
+    }
+
+    #etherium p {
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+
+    }
+    
+    #etherium img {
+        width: 10px;
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+
+    #clock {
+        text-align: right;
+    }
+
+    #clock img {
+        width: 16px;
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+
+    hr {
+        border: 1px solid hsl(215, 32%, 27%);
+    }
+
+    #jules {
+        width: 32px;
+        border: 1px solid white;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    #jules a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #jules a:visited { 
+        text-decoration: none; 
+    }
+
+    .attribution {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        margin: 0 auto;
+        background-color: hsl(216, 50%, 16%);
+        padding: 28px 28px 28px 28px;
+        border-radius: 8px;
+        width: 240px;
+        vertical-align: baseline;
+    }
+    
+    .gridwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+    
+    img {
+        width: 240px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: hsl(0, 0%, 100%)
+    }
+
+    p {
+        color: hsl(215, 51%, 70%)
+    }
+
+    #etherium {
+
+    }
+
+    #etherium p {
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+
+    }
+    
+    #etherium img {
+        width: 10px;
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+
+    #clock {
+        text-align: right;
+    }
+
+    #clock img {
+        width: 16px;
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+
+    hr {
+        border: 1px solid hsl(215, 32%, 27%);
+    }
+
+    #jules {
+        width: 32px;
+        border: 1px solid white;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    #jules a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .attribution {
+        color: white;
+    }
+
+}
